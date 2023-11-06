@@ -10,5 +10,6 @@ Array.from(document.getElementsByClassName('w-ch')).forEach((el,i)=>{
       document.getElementById(('val')).innerText='0' + (i+1);
       document.getElementsByClassName('wi-ch')[i].style.width="200px";
       document.getElementsByTagName('header')[0].style.filter=`hue-rotate(${rnd}deg)`
+      document.getElementsByTagName('section')[0].style.filter=`hue-rotate(${rnd}deg)`
     })
 })
